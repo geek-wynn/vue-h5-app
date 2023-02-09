@@ -15,7 +15,7 @@ export default defineConfig({
     createHtmlPlugin({
       inject: {
         data: {
-          title: '小鸟快验'
+          title: '王同学'
         }
       }
     }),

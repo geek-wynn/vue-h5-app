@@ -6,7 +6,7 @@ export function createRouterGuards(router: Router) {
     const name: any = to.name; // 路由名称
     const roles: any = to.meta.roles; // 访问权限
 
-    document.title = `小鸟快验 - ${name}`;
+    document.title = `王同学 - ${name}`;
 
     // 注 下一步
     next();
