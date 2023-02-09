@@ -1,4 +1,5 @@
-## Vue 3 + TypeScript + Vite + Pinia
+# H5网站 适用于微信浏览器&移动端浏览器
+## Vue3 + TypeScript + Vite + Pinia + Vant
 
 ### 项目结构
 
@@ -14,7 +15,7 @@
 |   ├─ store # 状态管理
 |   ├─ style # 样式
 |   ├─ utils # 工具库
-|   ├─ views # 试图页面
+|   ├─ views # 视图页面
 |   ├─ App.vue # vue入口
 |   ├─ main.ts # 创建vue 配置
 |   └─ vite-env.d.ts

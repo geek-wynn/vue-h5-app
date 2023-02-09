@@ -28,8 +28,8 @@ const tabBarList = [
   {
     name: '快验',
     url: '/healthExamination',
-    active: 'src/assets/images/common/tab_bar_icon_b_active.png',
-    inactive: 'src/assets/images/common/tab_bar_icon_b.png',
+    active: 'src/assets/images/common/tab_bar_icon_a_active.png',
+    inactive: 'src/assets/images/common/tab_bar_icon_a.png',
   },
   {
     name: '快诊',

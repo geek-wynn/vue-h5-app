@@ -2,7 +2,7 @@
 <template>
   <div class="xn-body">
     <van-sticky>
-      home{{ test }}
+      <div class="header"></div>
     </van-sticky>
     <van-button @click="clickHandle">++</van-button>
     <van-button @click="mallHandle">商城</van-button>
@@ -33,4 +33,7 @@ const mallHandle = () => {
 </script>
 
 <style lang="scss" scoped>
+.header {
+
+}
 </style>
