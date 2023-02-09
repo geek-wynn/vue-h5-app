@@ -1,5 +1,5 @@
 import { defineStore } from 'pinia';
-
+import { storage } from '@/utils/Storage'
 // 定义接口类型
 export interface UserType {
     token: string;
@@ -15,7 +15,7 @@ export const useUserStore = defineStore({
     id: 'user',
     state: (): UserType  => ({
         token: '',
-        username: '',
+        username: storage.get('user') || '',
         welcome: '',
         avatar: '',
         permissions: [],
@@ -36,6 +36,7 @@ export const useUserStore = defineStore({
     // 设置状态管理
     actions: {
         setUserName(value: string) {
+            storage.set('user',value);
             this.username = value;
         },
         setUserPermissions(value: number[]) {

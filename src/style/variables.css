@@ -57,11 +57,15 @@
     --van-line-height-md: 20px;
     --van-line-height-lg: 22px;
     /* stylelint-disable */
-    --van-base-font: -apple-system, BlinkMacSystemFont, 'Helvetica Neue',
-    Helvetica, Segoe UI, Arial, Roboto, 'PingFang SC', 'miui',
-    'Hiragino Sans GB', 'Microsoft Yahei', sans-serif;
-    --van-price-font: avenir-heavy, 'PingFang SC', helvetica neue, arial,
-    sans-serif;
+    /*--van-base-font: -apple-system, BlinkMacSystemFont, 'Helvetica Neue',*/
+    /*Helvetica, Segoe UI, Arial, Roboto, 'PingFang SC', 'miui',*/
+    /*'Hiragino Sans GB', 'Microsoft Yahei', sans-serif;*/
+    /*--van-price-font: avenir-heavy, 'PingFang SC', helvetica neue, arial,*/
+    /*sans-serif;*/
+    /* stylelint-enable */
+    /* stylelint-disable */
+    --van-base-font: iconfont;
+    --van-price-font: iconfont;
     /* stylelint-enable */
 
 // Animation

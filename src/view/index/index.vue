@@ -1,9 +1,11 @@
 
 <template>
   <div class="xn-body">
-    home{{ test }}
-    <button @click="clickHandle">点击</button>
-    <button @click="mallHandle">商城</button>
+    <van-sticky>
+      home{{ test }}
+    </van-sticky>
+    <van-button @click="clickHandle">++</van-button>
+    <van-button @click="mallHandle">商城</van-button>
   </div>
 </template>
 
@@ -20,9 +22,9 @@ if (user.getUserName) {
 }
 const clickHandle = () => {
   test.value ++;
-  setCats({ id: test.value }).then((res:any) => {
-    console.log(res)
-  })
+  // setCats({ id: test.value }).then((res:any) => {
+  //   console.log(res)
+  // })
   user.setUserName(String(test.value));
 }
 const mallHandle = () => {
