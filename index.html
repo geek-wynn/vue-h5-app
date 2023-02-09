@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, viewport-fit=cover"
+    />
+    <meta
+      name="theme-color"
+      media="(prefers-color-scheme: light)"
+      content="red"
+    />
+    <meta
+      name="theme-color"
+      media="(prefers-color-scheme: dark)"
+      content="blue"
+    />
+    <title><%= title %></title>
+    <style>
+      #loading {
+        width: 200px;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .img {
+        width: 40px;
+        height: 40px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      #loading img {
+        width: 100%;
+        height: 100%;
+      }
+      .text {
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        background: #eb0000; /* fallback for old browsers */
+        background: -webkit-linear-gradient(
+          to right,
+          #3300fc,
+          #95008a,
+          #eb0000
+        ); /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(
+          to right,
+          #3300fc,
+          #95008a,
+          #eb0000
+        ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        -webkit-background-clip: text;
+        color: transparent;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      <div id="loading">
+        <div class="img">
+          <img src="./src/assets/sample.gif" alt="" />
+        </div>
+        <div class="text">努力加载ing</div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
