@@ -1,6 +1,6 @@
 # H5网站 适用于微信浏览器&移动端浏览器
-## Vue3 + TypeScript + Vite + Pinia + Vant
-
+## Vue3 + TypeScript + Vite + Pinia + Vant + SDK
+`集成微信SDK` `微信支付` `支付宝支付`
 ### 项目结构
 
 ```md
