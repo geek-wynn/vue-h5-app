@@ -2,7 +2,7 @@
 <template>
   <div class="xn-body">
     <van-sticky>
-      <div class="header"></div>
+      <div class="header">{{ test }}</div>
     </van-sticky>
     <van-button @click="clickHandle">++</van-button>
     <van-button @click="mallHandle">商城</van-button>
