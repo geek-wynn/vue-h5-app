@@ -2,7 +2,7 @@
 ## Vue3 + TypeScript + Vite + Pinia + Vant + SDK
 `集成微信SDK` `微信支付` `支付宝支付`
 ### 项目结构
-
+test
 ```md
 ├─ public # 静态文件
 ├─ src # 主代码文件
